@@ -1,0 +1,48 @@
+/* globals.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Distribute navbar items with space between */
+  width: 100%;  /* Ensure navbar takes full width */
+  padding: 20px 40px; /* Add some padding to the navbar */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.logo {
+  margin-top: 50px; /* Add space between navbar and logo */
+}
+
+.logo h1 {
+  font-size: 3rem; /* Adjust size of logo */
+  margin: 0;
+  color: #333; /* Logo color */
+}
